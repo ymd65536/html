@@ -1,4 +1,4 @@
 # html
 キレイなフォームを書く
 
-![registry.png](./registry)
+![registry.png](registry.png)
