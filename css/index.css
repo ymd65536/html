@@ -1,5 +1,4 @@
-
-p{
+p {
   font-size: 14px;
 }
 
@@ -7,12 +6,12 @@ p{
 cssのmarginの0には単位が不要
 基本的に0を指定した場合は単位が不要。
 */
-h1{
+h1 {
   font-size: 24px;
-  margin:0px;
+  margin: 0px;
 }
 
-.content{
+.content {
   background-color: #ffffff;
   width: 600px;
   margin: 0 auto;
@@ -26,18 +25,17 @@ h1{
   /*内側の余白をpadding*/
   border: 1px solid #d1d1d1;
   padding: 30px;
-
 }
 
 /*
 ボーダーを下線のみにする。
 フォントサイズを1.2倍に変更
 */
-input{
-  border :none;
+input {
+  border: none;
   border-bottom: 1px solid #d1d1d1;
   font-size: 1.2em;
-  width:100%;
+  width: 100%;
   padding: 8px;
 }
 /*
@@ -49,35 +47,36 @@ input{
 ボタンを丸くする
 ボタンに影をつける
 */
-button{
-  width :100%;
+button {
+  cursor: pointer;
+  width: 100%;
   background-color: #2096f3;
   color: #ffffff;
   padding: 15px;
   border: 0;
   border-radius: 30px;
-  box-shadow: 0 0 8px rgba(0,0,0,.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
 }
 
-.required{
+.required {
   color: #f33;
-  font-size: .9em;
+  font-size: 0.9em;
   padding: 3px;
   background-color: #fee;
   font-weight: bold;
 }
 
-.control{
+.control {
   margin-bottom: 3em;
 }
 /*
 改行されない要素：つまりはインライン要素
 labelはインライン要素
 */
-label{
+label {
   display: block;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
-body{
+body {
   background-color: #fafafa;
 }
